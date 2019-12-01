@@ -115,8 +115,7 @@ FOREIGN KEY([column]) REFERENCES [table1]([column to reference])
 To add to a column once the table is created:\
 `ALTER TABLE [table] ADD FOREIGN KEY([column]) REFERENCES [table2].[column];`\
 \
-You can use joins to select data from multiple tables based on foreign keys. Inner joins match both tables, right joins select all from the right table and data from the left that matches (can give null responses if the right table has no corresponding values in the left table), and left joins do the same for the left table.\
-\
+You can use joins to select data from multiple tables based on foreign keys. Inner joins match both tables, right joins select all from the right table and data from the left that matches (can give null responses if the right table has no corresponding values in the left table), and left joins do the same for the left table.
 ```
 SELECT [table1].[column], [table2].[column]
 FROM [table1]
