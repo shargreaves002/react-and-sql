@@ -52,8 +52,8 @@ delete table:\
 add a column:
 ```
 ALTER TABLE [table] ADD [column name] [data type];
-*sets this value in all existing rows to null*
 ```
+*sets this value in all existing rows to null*
 \
 change a column:\
 `ALTER TABLE [table] MODIFY COLUMN [column name] [data type];`\
