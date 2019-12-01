@@ -1,5 +1,5 @@
 # MySQL commands
-###User administration:
+### User administration:
 login:\
 `mysql -u [username] -p`\
 \
@@ -32,7 +32,7 @@ delete database:\
 \
 leave:\
 `exit;`
-###Table manipulation:
+### Table manipulation:
 show tables:\
 `SHOW TABLES;`\
 \
