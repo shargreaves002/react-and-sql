@@ -15,8 +15,8 @@ then:\
 `FLUSH PRIVILEGES;`\
 \
 check user privileges:\
-`SHOW GRANTS FOR '[username]'@'[address]';`\
-\
+`SHOW GRANTS FOR '[username]'@'[address]';`
+
 ### Database commands:
 create database:\
 `CREATE DATABASE [dbname];`\
