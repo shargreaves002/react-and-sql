@@ -17,7 +17,7 @@ then:\
 check user privileges:\
 `SHOW GRANTS FOR '[username]'@'[address]';`\
 \
-###Database commands:
+### Database commands:
 create database:\
 `CREATE DATABASE [dbname];`\
 \
@@ -124,7 +124,7 @@ INNER JOIN [table 2] ON [table1].[foregin key column] = [table2].[foreign key co
 ```
 *you can have multiple joins to get data from 3 or more tables*
 
-###Aggregate functions:
+### Aggregate functions:
 get total number of rows:\
 `SELECT COUNT([column]) FROM [table];`\
 \
